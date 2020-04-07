@@ -22,7 +22,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                 <state key="normal" title="😡"/>
                                 <connections>
-                                    <action selector="angryMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rhW-4E-Bus"/>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bfU-0C-dbn"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NNf-FM-ZfM">
@@ -32,7 +32,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                 <state key="normal" title="🤢"/>
                                 <connections>
-                                    <action selector="ewMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="89h-kK-GJb"/>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qxk-vm-e76"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bon-V7-F7W">
@@ -42,7 +42,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                 <state key="normal" title="🥶"/>
                                 <connections>
-                                    <action selector="frezzeMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pq1-b8-FIm"/>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XXE-Wd-G7L"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W3g-DP-zU7">
@@ -52,7 +52,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                 <state key="normal" title="😈"/>
                                 <connections>
-                                    <action selector="evilMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ggC-Xh-baj"/>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jCD-5T-dR7"/>
                                 </connections>
                             </button>
                         </subviews>

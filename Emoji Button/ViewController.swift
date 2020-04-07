@@ -16,21 +16,18 @@ class ViewController: UIViewController {
         present(alertController, animated: true, completion: nil)
     }
     
-
-    
-    @IBAction func angryMessage(sender: UIButton) {
-        alertMessage(title: "Angry", message: "I'm Angry", button: "Fuck off")
+    @IBAction func showMessage(sender: UIButton) {
+        let emojiDict: [String: String] = ["😡": "Angry", "🤢": "Ewww", "🥶": "Frezzz", "😈": "Evil"]
+        let emojiword: [String: String] = ["Angry": "I'm Angry", "Ewww": "I'm Ewww", "Frezzz": "I'm Frezzz", "Evil": "I'm Evil"]
+        let selectButton = sender
+        if let wordLookUp = selectButton.titleLabel?.text {
+            let meaning = emojiDict[wordLookUp]
+            let words = emojiword[meaning!]
+            alertMessage(title: meaning!, message: words!, button: "Fuck off")
+            
+        }
+        
     }
-    @IBAction func ewMessage(sender: UIButton) {
-        alertMessage(title: "Ewww", message: "I'm Ewww", button: "Fuck off")
-    }
-    @IBAction func frezzeMessage(sender: UIButton) {
-        alertMessage(title: "Frezzz", message: "I'm Frezzz", button: "Fuck off")
-    }
-    @IBAction func evilMessage(sender: UIButton) {
-        alertMessage(title: "Evil", message: "I'm Evil", button: "Fuck off")
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
